@@ -1,7 +1,7 @@
 name: smart_file_manager
 description: مدير ملفات عربي ذكي مع وصول كامل للملفات
 publish_to: 'none'
-version: 1.0.0+1
+version: 1.1.0+2
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
@@ -13,6 +13,8 @@ dependencies:
     sdk: flutter
   permission_handler: ^11.3.1
   path_provider: ^2.1.4
+  share_plus: ^7.2.2
+  open_filex: ^4.3.4
 
 flutter:
   uses-material-design: true
